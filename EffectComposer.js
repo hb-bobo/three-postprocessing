@@ -7,8 +7,8 @@ import {
 	WebGLRenderTarget
 } from 'three';
 import CopyShader from '@/three/Shader/CopyShader';
-import ShaderPass from '@/three/postprocessing/ShaderPass';
-import MaskPass, {ClearMaskPass} from '@/three/postprocessing/MaskPass';
+import ShaderPass from './postprocessing/ShaderPass';
+import MaskPass, {ClearMaskPass} from './postprocessing/MaskPass';
 var EffectComposer = function ( renderer, renderTarget ) {
 
 	this.renderer = renderer;
